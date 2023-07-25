@@ -1,0 +1,1004 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 3s;
+}
+
+/* ########## Section-One ########## */
+
+.sec_one {
+    padding: 35px 3rem;
+    background-image: url(fst.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: poppins;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.nav_items {
+    display: flex;
+    position: fixed;
+    right: 40px;
+    align-items: center;
+    background: black;
+    padding: 12px;
+    z-index: 3;
+}
+
+.nav_items h1 {
+    color: #3ab550;
+    font-size: 20px;
+}
+
+.check {
+    color: white;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.item {
+    display: none;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 25px 8px;
+    width: 15%;
+    transition: all .8s;
+}
+
+.navi {
+    align-items: center;
+    display: flex;
+}
+
+.navi h1 {
+    color: #3ab550;
+    padding-left: 22px;
+    font-size: 18px;
+}
+
+.cross {
+    color: white;
+    padding-left: 45%;
+}
+
+.item ul {
+    padding: 4rem 25px;
+}
+
+.item ul li a {
+    color: white;
+    line-height: 2.5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item p {
+    color: #939191;
+    padding: 0px 30px;
+}
+
+.lst_icons {
+    padding-left: 17px;
+}
+
+.lst_icons i {
+    padding-left: 16px;
+    color: #939191;
+}
+
+.lst_icons i:hover {
+    color: white;
+}
+
+.content {
+    color: white;
+    padding-top: 8%;
+    padding-left: 4%;
+}
+
+[data-aos][data-aos][data-aos-duration="400"],
+body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 1s;
+}
+
+.content p {
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 5px;
+}
+
+.content h1 {
+    font-size: 3.5rem;
+    line-height: 1.4;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    font-weight: 500;
+    padding-right: 56%;
+}
+
+.content button {
+    width: 17%;
+    margin: 30px 25px 0px 0px;
+    padding: 18px 0px;
+    background: black;
+    box-shadow: 4px 3px 1px 1px #0000007a;
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.content button:hover {
+    color: black;
+    background: white;
+}
+
+.content_one {
+    padding-top: 4rem;
+    float: right;
+    display: inline-grid;
+}
+
+.content_one i {
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 37px;
+    padding: 10px;
+    margin-bottom: 29px;
+}
+
+/* ########## Section-Two ########## */
+
+.sec_two {
+    background-color: #3ab550;
+    height: 100vh;
+    font-family: poppins;
+    padding: 7rem 0;
+}
+
+.content_two {
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+.content_two h1 {
+    font-size: 6rem;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.line {
+    border-bottom: 1px solid #bfbdbd;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.content_two p {
+    font-size: 25px;
+    padding-top: 25px;
+    line-height: 2;
+    letter-spacing: 0.2px;
+}
+
+.mn,
+.mn1 {
+    display: flex;
+}
+
+.cnt_2 {
+    display: flex;
+}
+
+.timer1,
+.timer2,
+.timer3,
+.timer4 {
+    padding: 0 5rem;
+    border-right: 3px solid #00000054;
+}
+
+.timer4 {
+    border-right: none;
+}
+
+.cnt_2 p {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: poppins;
+}
+
+.cnt_2 h3 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: poppins;
+}
+
+/* ########## Section-Three ########## */
+
+.sec_three {
+    padding: 5rem 0px;
+}
+
+.content_three {
+    text-align: center;
+}
+
+.content_three h4 {
+    color: #3bb555;
+}
+
+.content_three h1 {
+    font-size: 3rem;
+    line-height: 1.255;
+    color: #000000;
+    padding: 20px 13rem;
+    font-weight: 600;
+}
+
+.boxes {
+    display: flex;
+    padding: 50px 0px;
+}
+
+.box {
+    text-align: initial;
+}
+
+.cont_three {
+    display: flex;
+}
+
+.cont_three i {
+    color: #3ab555;
+    font-size: 40px;
+    padding: 0px 20px;
+}
+
+.cont_three h3 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.box p {
+    padding: 20px 7rem 20px 5rem;
+    line-height: 2;
+    font-size: 18px;
+}
+
+/* ########## Section-Four ########## */
+
+.sec_four {
+    background-color: black;
+    padding: 10rem 0;
+}
+
+.content_four {
+    text-align: center;
+}
+
+.content_four h5 {
+    color: #3ab555;
+}
+
+.content_four h1 {
+    font-size: 3rem;
+    padding: 20px 17rem;
+    color: white;
+}
+
+.images {
+    display: flex;
+    position: relative;
+    top: -6rem;
+}
+
+.img1,
+.img2 {
+    width: 50%;
+}
+
+.img1 img,
+.img2 img {
+    width: 100%;
+    height: 30%;
+}
+
+/* ########## Section-Five ########## */
+
+.sec_five {
+    background-color: #e6e6e6;
+    padding: 5rem 0px;
+}
+
+.content_five {
+    text-align: center;
+}
+
+.content_five h5 {
+    color: #3ab555;
+}
+
+.content_five h1 {
+    font-size: 3rem;
+    padding: 0px 16rem;
+    font-weight: 600;
+}
+
+.slider {
+    display: flex;
+    margin: 5rem 0rem;
+}
+
+.slider img {
+    width: 12%;
+    margin-right: 1rem;
+}
+
+.slider1 {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.sld h2 {
+    padding: 3rem 13rem;
+    line-height: 1.8;
+    color: #555555;
+    font-weight: 400;
+}
+
+.sld img {
+    width: 7%;
+    border-radius: 50%;
+}
+
+.sld2,
+.sld3 {
+    display: none;
+}
+
+/* ########## Section-Six ########## */
+.sec_six {
+    background-image: url(st.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 0rem;
+}
+
+.content_six {
+    text-align: center;
+}
+
+.content_six h4 {
+    font-size: 23px;
+    line-height: 1.3;
+    letter-spacing: .25rem;
+    color: #39b54a;
+}
+
+.content_six h1 {
+    color: white;
+    font-size: 3rem;
+    padding: 0px 20rem;
+}
+
+.bx h2 {
+    font-size: 17px;
+    padding: 40px 0px;
+    color: white;
+}
+
+.bx {
+    padding-left: 50px;
+    width: 100%;
+}
+
+.frm {
+    background-color: black;
+    text-align: initial;
+    width: 50%;
+    margin: 40px 11%;
+    height: 45rem;
+    display: flex;
+    opacity: 0.6;
+}
+
+.bx input {
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #4f4f4e;
+    padding: 20px 0px;
+    width: 95%;
+}
+
+.bx input:focus {
+    outline: none;
+    border-bottom: 2px solid #39b54a;
+    color: white;
+}
+
+input#mess {
+    padding-bottom: 9rem;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #00ff23;
+    font-weight: 500;
+}
+
+input[type="submit"]:hover {
+    border-bottom: 2px solid #39b54a;
+    background-color: black;
+    color: #00ff23;
+}
+
+.tw_cnt {
+    display: flex;
+}
+
+.inf {
+    background-color: black;
+    width: 27%;
+    margin-left: -9rem;
+    margin-top: 39px;
+    text-align: initial;
+    padding-left: 3rem;
+    height: 45rem;
+}
+
+.inf h2 {
+    font-size: 17px;
+    padding: 40px 0px 0px 0px;
+    color: white;
+}
+
+.inf h4 {
+    font-size: 18px;
+    line-height: 2;
+    color: #39b54a;
+    letter-spacing: 0;
+    padding-top: 25px;
+}
+
+.inf p {
+    color: #4f4f4e;
+    padding: 20px 0px 0px 0px;
+    line-height: 2;
+}
+
+.inf a {
+    color: #4f4f4e;
+    padding-right: 4px;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.inf i {
+    padding-top: 12px;
+    font-size: 24px;
+    color: white;
+    padding-right: 20px;
+}
+
+.inf i:hover {
+    color: #00ff23;
+}
+
+
+/* ########## Section-Seven ########## */
+
+.sec_seven {
+    padding: 7rem 0px;
+    background-color: black;
+    color: #4f4f4e;
+}
+
+.content_seven {
+    display: flex;
+}
+
+.logo_2 img {
+    width: 13%;
+}
+
+.notice h1 {
+    font-size: 29px;
+    color: white;
+}
+
+.logo_2 {
+    margin-left: 12rem;
+}
+
+.logo_2 p {
+    padding: 30px 21rem 0px 0px;
+}
+
+.notice p {
+    padding-top: 18px;
+}
+
+input#lst_inp {
+    background-color: black;
+    padding: 10px 12px;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+i.fa-regular.fa-envelope {
+    color: white;
+    font-size: 22px;
+}
+
+input#sub {
+    padding: 3% 3%;
+    color: white;
+    background-color: #3ab53e;
+    position: relative;
+    top: -4rem;
+    left: 15rem;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1880px) {
+    .content h1 {
+        padding-right: 52%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .content h1 {
+        padding-right: 50%;
+        font-size: 3rem;
+    }
+    .item {
+        width: 17%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .content h1 {
+        padding-right: 58%;
+        font-size: 2rem;
+    }
+    .item {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+
+    .timer1,
+    .timer2,
+    .timer3,
+    .timer4 {
+        padding: 0 4rem;
+    }
+
+    .content_two p {
+        font-size: 22px;
+    }
+
+    .cnt_2 p {
+        font-size: 3rem;
+    }
+
+    .content_four h1 {
+        padding: 20px 13rem;
+    }
+
+    .content_five h1 {
+        padding: 0px 10rem;
+    }
+    .item {
+        width: 25%;
+    }
+
+    .sld h2 {
+        padding: 3rem 4rem;
+    }
+
+    .content_six h1 {
+        padding: 0px 11rem;
+    }
+
+    .logo_2 {
+        margin-left: 0rem;
+    }
+
+    .inf {
+        margin-left: 0rem;
+    }
+
+    .frm {
+        margin: 40px 0% 40px 8%;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .content h1 {
+        font-size: 2rem;
+        padding-right: 51%;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .content_seven {
+        display: block;
+    }
+
+    input#sub {
+        padding: 1% 2%;
+        top: 0rem;
+        left: -2rem;
+    }
+
+    .notice {
+        padding-top: 3rem;
+    }
+
+    .logo_2 p {
+        padding: 30px 0rem 0px 0px;
+    }
+
+    .notice h1 {
+        font-size: 37px;
+        color: white;
+    }
+
+    .content button {
+        width: 27%;
+    }
+
+    .box p {
+        padding: 20px 0rem 20px 4rem;
+    }
+
+    .content_three h1 {
+        font-size: 2rem;
+        padding: 20px 8rem;
+    }
+
+    .content_four h1 {
+        padding: 20px 8rem;
+    }
+
+    .content_five h1 {
+        padding: 30px 13rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .mn,
+    .mn1 {
+        display: block;
+    }
+
+    .timer3 {
+        border: none;
+    }
+
+    .content_two {
+        padding: 0px;
+    }
+
+    .sec_two {
+        padding: 4rem 0;
+    }
+
+    .content_two h1 {
+        font-size: 4rem;
+    }
+    .item {
+        width: 30%;
+    }
+
+    .timer1,
+    .timer2,
+    .timer3,
+    .timer4 {
+        padding: 0 2rem 0rem 3rem;
+    }
+
+    .box p {
+        padding: 20px 0rem 20px 1rem;
+        font-size: 15px;
+    }
+
+    .content_four h1 {
+        padding: 30px 3rem;
+        font-size: 2rem;
+    }
+
+    .content_five h1 {
+        padding: 30px 0rem;
+    }
+
+    .sld h2 {
+        padding: 3rem 0rem;
+    }
+
+    .content_six h1 {
+        padding: 0px 0rem;
+    }
+
+    .frm {
+        margin: 40px 0% 40px 0%;
+    }
+
+    .inf {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        width: 100%;
+    }
+    .cross {
+        padding-left: 69%;
+        font-size: 27px;
+    }
+    .navi h1 {
+        font-size: 26px;
+    }
+    .item ul li a {
+        font-size: 24px;
+    }
+    .item {
+        padding: 45px 8px;
+        transition: all .8s;
+    }
+    .content {
+        padding-top: 21%;
+    }
+
+    .content h1 {
+        font-size: 28px;
+        padding-right: 27%;
+    }
+
+    .content button {
+        width: 28%;
+    }
+
+    .content_one {
+        padding-top: 0rem;
+    }
+
+    .content_two h1 {
+        font-size: 3rem;
+    }
+
+    .content_two h3 {
+        font-size: 19px;
+    }
+
+    .content_two p {
+        font-size: 20px;
+        text-align: initial;
+    }
+
+    .content_three h1 {
+        font-size: 2rem;
+        padding: 20px 0rem;
+    }
+
+    .cont_three h3 {
+        font-size: 24px;
+    }
+
+    .boxes {
+        display: block;
+        padding: 50px 0px;
+    }
+
+    .sld h2 {
+        padding: 3rem 0rem;
+        font-size: 18px;
+    }
+
+    .inf {
+        width: 48%;
+        padding-left: 13px;
+    }
+
+    .bx {
+        padding-left: 22px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cross {
+        padding-left: 55%;
+    }
+    .content_one {
+        display: none;
+    }
+
+    .timer4 {
+        padding: 0 1rem 0rem 1rem;
+    }
+
+    .cnt_2 p {
+        font-size: 2rem;
+    }
+
+    .cnt_2 h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .content_two p {
+        font-size: 16px;
+    }
+
+    .content button {
+        width: 42%;
+        margin: 30px 5px 0px 0px;
+        padding: 14px 0px;
+        font-size: 10px;
+    }
+
+    .content h1 {
+        font-size: 27px;
+        padding-right: 0%;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .tw_cnt {
+        display: block;
+    }
+
+    .frm {
+        width: 100%;
+    }
+
+    .inf {
+        width: 100%;
+        padding-left: 46px;
+    }
+
+    .content_seven {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .cross {
+        padding-left: 42%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cross {
+        padding-left: 37%;
+        font-size: 20px;
+    }s
+    .logo img {
+        width: 40%;
+    }
+
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .sec_one {
+        padding: 35px 1rem;
+    }
+
+    .content {
+        padding-top: 40%;
+    }
+
+    .nav_items {
+        right: 12px;
+        padding: 7px;
+    }
+
+    .content button {
+        width: 90%;
+        display: block;
+    }
+
+    .content_one {
+        display: flex;
+        float: none;
+
+    }
+
+    .content_one i {
+        margin-right: 12px;
+    }
+
+    .content_two p {
+        font-size: 14px;
+    }
+
+    .content_two h1 {
+        font-size: 40px;
+    }
+
+    .timer1,
+    .timer2,
+    .timer3,
+    .timer4 {
+        padding: 0 2rem 0rem 1rem;
+    }
+
+    .content_three h1 {
+        font-size: 20px;
+    }
+
+    .content_four h1 {
+        padding: 30px 0rem;
+        font-size: 29px;
+    }
+
+    .content_five h1 {
+        padding: 30px 0rem;
+        font-size: 26px;
+    }
+
+    .sld h2 {
+        padding: 1rem 0rem;
+        font-size: 15px;
+    }
+
+    .content_six h1 {
+        padding: 0px 0rem;
+        font-size: 27px;
+    }
+
+    .logo_2 img {
+        width: 44%;
+    }
+
+    input#sub {
+        padding: 1% 2%;
+        top: -3.5rem;
+        left: 10rem;
+    }
+}

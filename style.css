@@ -69,6 +69,7 @@ nav {
     padding: 25px 8px;
     width: 15%;
     transition: all .8s;
+    z-index:3;
 }
 
 .navi {

@@ -215,6 +215,8 @@ body[data-aos-duration="400"] [data-aos] {
 
 .cnt_2 {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timer1,
@@ -584,7 +586,7 @@ input#sub {
 
 @media screen and (max-width: 1600px) {
     .content h1 {
-        padding-right: 50%;
+        padding-right: 39%;
         font-size: 3rem;
     }
     .item {
@@ -594,7 +596,7 @@ input#sub {
 
 @media screen and (max-width: 1350px) {
     .content h1 {
-        padding-right: 58%;
+        padding-right: 47%;
         font-size: 2rem;
     }
     .item {
@@ -653,8 +655,9 @@ input#sub {
 
 @media screen and (max-width: 1110px) {
     .content h1 {
+        padding-right: 47%;
         font-size: 2rem;
-        padding-right: 51%;
+        padding-top: 5%;
     }
 
     .slider {
@@ -795,7 +798,7 @@ input#sub {
 
     .content h1 {
         font-size: 28px;
-        padding-right: 27%;
+        padding-right: 16%;
     }
 
     .content button {
